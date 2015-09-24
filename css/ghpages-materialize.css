@@ -5566,6 +5566,10 @@ small {
       overflow: hidden; }
     .card.small .card-content, .card.medium .card-content, .card.large .card-content {
       overflow: hidden; }
+    .card.small .card-content p, .card.medium .card-content p  {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
     .card.small .card-action, .card.medium .card-action, .card.large .card-action {
       position: absolute;
       bottom: 0;
